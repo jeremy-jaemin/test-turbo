@@ -21,6 +21,7 @@ const ThemeImage = (props: Props) => {
 export default function Home() {
   return (
     <div className={styles.page}>
+      <div className="text-custom-blue">테일윈드 확인용</div>
       <main className={styles.main}>
         <ThemeImage
           className={styles.logo}
